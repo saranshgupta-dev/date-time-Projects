@@ -9,7 +9,7 @@ A simple and interactive **Date & Time Dashboard** built using HTML, CSS, and Ja
 ## 📸 Project Screenshot
 
 <!-- Add your project screenshot here -->
-![Date-Time-Projects Screenshot](screenshots.png)
+![Date-Time-Projects Screenshot](./screenshot.png)
 
 ## ✨ Features
 
