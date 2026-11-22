@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock & Delivery Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+ <main class="container">
+    <h1>Date & Time Dashboard</h1>
+    <p class="subtitle">Javascript Date Practice Project</p>
+
+    <!-- Digital Projects  -->
+   <section class="card">
+     <h2>Digital Clock</h2>
+     <div id="clock">00:00:00</div>
+     <div id="period">AM</div>
+     <p id="todayDate">Loading Date...</p>
+   </section>
+
+   <!-- Delivery Calculator  -->
+    <section class="card">
+        <h2>Delivery Date Calculator</h2>
+
+       <label for="deliveryDays">
+        Select delivery days
+       </label>
+       <input type="number" id="deliveryDays" min="1" max="365" value="7">
+       <button id="calculateBtn">Calculate Delivery Date</button>
+       <div id="result">Your delivery date will appear here </div>
+    </section>
+</main>
+</body>
+</html>

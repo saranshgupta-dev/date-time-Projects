@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #101827;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;  
+}
+.container{
+    /* background-color: red; */
+    width: 100%;
+    max-width: 650px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.subtitle{
+    text-align: center;
+    color: #9ca3af;
+    margin-bottom: 30px;
+}
+/* Digital Projects or Delivery Calculator */
+.card{
+    background: #1e293b;
+    border: 1px solid  #334155;
+    /* padding: means giving space in inside */
+    padding: 25px;
+    border-radius: 16px;
+    /* margin : giving space in outside of elements  */
+    margin-bottom: 22px;
+}
+.card h2{
+    margin-bottom: 22px;
+    font-size: 21px;
+}
+ /* id = # class = . (dot) */
+#clock{
+    font-size: clamp(42px,10vw,65px);
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #38bdf8;
+}
+#period{
+    text-align: center;
+    font-size: 18px;
+    color: #facc15;
+    margin-top: 8px;
+}
+#todayDate{
+     text-align: center;
+     color: #cbd5e1;
+     margin-top: 15px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input{
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #475569;
+    border-radius: 8px;
+    background: #0f172a;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+button{
+    width: 100%;
+    margin-top: 10px;
+    /* creating space inner side   */
+    padding: 14px;
+    background: #0284c7;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background: #0369a1;
+}
+#result{
+    margin-top: 20px;
+    line-height: 1.8;
+    color: #86efac;
+    overflow-wrap:anywhere ;
+}
+@media(max-width:480px){
+    .card{
+        padding: 18px;
+    }
+}
